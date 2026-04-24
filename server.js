@@ -27,3 +27,13 @@ app.post("/chat", async (req, res) => {
 });
 
 app.listen(5000);
+
+
+
+app.get("/", (req, res) => {
+  res.send("MITC Industrial AI đang chạy!");
+});
+
+app.post("/chat", async (req, res) => {
+  ...
+});
